@@ -1,5 +1,5 @@
 {% set name = "ustrid" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ustrid-{{ version }}.tar.gz
-  sha256: c8d7176e998381a605cba6a3d82978888c604f10011542767a44eed527b551b3
+  sha256: efa96dbccb424dd274a7bafe65afe00032410b73d9435de4bddd45ec61e65998
 
 build:
   entry_points:
